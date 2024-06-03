@@ -29,6 +29,23 @@ The training used a truncated version of the Medium Articles Dataset. The origin
 ```
 pip install -r requirements.txt
 ```
+
+OR type following commands in the terminal 
+
+```
+python -m pip install pandas
+python -m pip install numpy
+python -m pip install transformers
+python -m pip install datasets
+python -m pip install sentencepiece
+python -m pip install evaluate
+python -m pip install rouge_score
+python -m pip install torch
+python -m pip install accelerate
+python -m pip install protobuf
+```
+
+
 3. **Data Loading:**
 
 Use data_loader.py to load the dataset:
