@@ -65,17 +65,4 @@ trainer.train()
 
 trainer.save_model(output_dir)
 
-"""
-MODEL EVALUATION
-"""
-
-results = trainer.predict(tokenized_small_cnn_dailymail["test"])
-print(results)
-
-"""
-MODEL TEST
-"""
-
-test_results = trainer.evaluate(eval_dataset=tokenized_small_cnn_dailymail['test'])
-print(test_results)
 
