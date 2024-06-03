@@ -1,4 +1,4 @@
-# Title Generator for Articles
+# Summary Generator for Articles
 
 This project contains code for a T5-small model fine-tuned for the task of generating summaries for articles.
 
