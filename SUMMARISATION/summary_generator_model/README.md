@@ -28,8 +28,28 @@ As for the data instances, for each instance there is a string for the article c
    cd SUMMARISATION
    cd summary_generator_model
    ```
+2. **Install the required packages:**
 
-2. **Model running:**
+```
+pip install -r requirements.txt
+```
+
+OR type following commands in the terminal 
+
+```
+python -m pip install pandas
+python -m pip install numpy
+python -m pip install transformers
+python -m pip install datasets
+python -m pip install sentencepiece
+python -m pip install evaluate
+python -m pip install rouge_score
+python -m pip install torch
+python -m pip install accelerate
+python -m pip install protobuf
+```
+
+3. **Model running:**
 
 To run all model modules (data loading, data preprocessing, model training and evaluation) type in console:
 
@@ -37,7 +57,7 @@ To run all model modules (data loading, data preprocessing, model training and e
 python model_evaluation.py
 ```
 
-3. **Generate summaries:**
+4. **Generate summaries:**
 
 After model is run and saved in following directory, use predict.py to generate titles for the test set examples:
 
