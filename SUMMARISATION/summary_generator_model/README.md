@@ -22,8 +22,10 @@ As for the data instances, for each instance there is a string for the article c
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/kriachers/ML_final_project.git
+   cd ML_final_project
+   cd SUMMARISATION
+   cd summary_generator_model
    ```
 
 2. **Install the required packages:**
