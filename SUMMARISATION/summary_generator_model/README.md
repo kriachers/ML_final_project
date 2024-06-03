@@ -6,7 +6,8 @@ This project contains code for a T5-small model fine-tuned for the task of gener
 
 - **data_loader.py** - Loads the data.
 - **data_preprocess.py** - Preprocesses (tokenizes) the data.
-- **train.py** - Trains and evaluates the model.
+- **model_train.py** - Trains and evaluates the model.
+- **model_evaluation.py** - Evaluates the model.
 - **predict.py** - Runs the model on examples from the test set.
 
 ## Dataset for Training
@@ -28,38 +29,17 @@ As for the data instances, for each instance there is a string for the article c
    cd summary_generator_model
    ```
 
-2. **Install the required packages:**
+2. **Model running:**
+
+To run all model modules (data loading, data preprocessing, model training and evaluation) type in console:
 
 ```
-pip install -r requirements.txt
-```
-3. **Data Loading:**
-
-Use data_loader.py to load the dataset:
-```
-python data_loader.py
+python model_evaluation.py
 ```
 
-4. **Data Preprocessing:**
-Preprocess the dataset using data_preprocess.py:
+3. **Generate summaries:**
 
-```
-python data_preprocess.py
-```
-
-5. **Model Training and Evaluation:**
-
-
-Train and evaluate the model using model_train.py:
-
-```
-python model_train.py
-```
-
-5. **Generate Titles::**
-
-
-Use predict.py to generate titles for the test set examples:
+After model is run and saved in following directory, use predict.py to generate titles for the test set examples:
 
 ```
 python predict.py
