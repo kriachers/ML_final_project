@@ -1,0 +1,10 @@
+transformers
+accelerate
+datasets
+bertviz
+umap-learn
+scikit-learn
+torch
+nltk
+gensim
+lime
